@@ -64,15 +64,34 @@ eas build -p ios --profile preview
 # Publish an update
 eas update --branch preview --message "Initial publish of AI Mood Journal"
 
-💡 Demo / Preview
+## 🤖 How AI Helped in Development
 
-🔗 (Add your Expo Preview or EAS Build link here once available)
-Example:
-exp://192.168.x.x:8081 (local preview)
-or
-https://expo.dev/accounts/nasrindev/projects/ai-mood-journal/builds/...
+Artificial Intelligence played a central role in both the **functionality** and **creation** of this project:
 
-👩‍💻 Author
+### 🧠 1. AI-Powered Mood Analysis
+- Integrated **OpenAI API** to analyze user journal entries.
+- The AI interprets text input, detects **emotional tone**, and provides supportive insights.
+- Users receive empathetic feedback such as motivational quotes or calming suggestions based on sentiment.
+
+### ⚙️ 2. AI-Assisted Development
+- Used **ChatGPT** for generating boilerplate code, debugging errors, and refining React Native components.
+- Prompts were used to quickly implement UI logic, navigation flow, and sentiment-based responses.
+- AI also suggested better coding practices for managing states and handling asynchronous API calls.
+
+### 🎨 3. Design & User Experience
+- AI tools helped design a minimal, mood-soothing interface with gentle color schemes and calm typography.
+- Generated content ideas for “happy,” “sad,” and “neutral” mood examples to improve user engagement.
+- Enhanced UX copy (placeholder texts, button labels, prompts) for a more natural, positive feel.
+
+### 🚀 4. Workflow Optimization
+- AI was used to write documentation (like this README) and optimize environment setup files (`app.config.js`, `.env`).
+- Helped troubleshoot Expo configuration and build issues faster during the coding sprint.
+
+---
+
+> 🪄 Overall, AI was both the **core engine** that powers emotion analysis  
+> and a **coding companion** that accelerated development, design, and deployment.
+
 
 Nasrin Sultana
 💼 AI Engineer Intern | Tech Creator | Open Source Enthusiast
