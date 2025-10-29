@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# 🧠 AI Mood Journal
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🌈 Overview
+**AI Mood Journal** is a smart journaling app built with **React Native + Expo** that helps users track their moods, write their thoughts, and receive instant **AI-powered emotional analysis**.  
+This project combines simple design and the power of AI to support emotional awareness and mental well-being.
 
-## Get started
+---
 
-1. Install dependencies
+## ⚙️ Tech Stack
+- **Frontend:** React Native (Expo)
+- **AI Integration:** Google Gemini API
+- **Build System:** EAS Build
+- **Language:** TypeScript
+- **Version Control:** Git & GitHub
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Features
+✅ Choose your mood (Happy, Sad, Angry, etc.)  
+✅ Write your daily thoughts or journal entries  
+✅ Receive instant **AI-based mood analysis** and supportive feedback  
+✅ Clean and minimal UI design  
+✅ Cross-platform support (Android & iOS)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧠 How It Works
+1. The user selects their **current mood**.  
+2. They write thoughts or reflections for the day.  
+3. The app sends the text to the **Gemini AI API**.  
+4. AI analyzes the tone, mood, and context to provide supportive feedback.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📱 Run Locally
+
+Make sure you have **Node.js**, **npm**, and **Expo CLI** installed.
 
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/nasrindev/ai-mood-journal.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Move into the project directory
+cd ai-mood-journal
 
-## Learn more
+# Install dependencies
+npm install
 
-To learn more about developing your project with Expo, look at the following resources:
+# Start the app
+npx expo start
+Then scan the QR code in the Expo Go app (on your iPhone or Android) to preview it.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+🌍 Build or Publish with EAS
+# Configure project for EAS
+eas build:configure
 
-Join our community of developers creating universal apps.
+# Build for iOS
+eas build -p ios --profile preview
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Publish an update
+eas update --branch preview --message "Initial publish of AI Mood Journal"
+
+💡 Demo / Preview
+
+🔗 (Add your Expo Preview or EAS Build link here once available)
+Example:
+exp://192.168.x.x:8081 (local preview)
+or
+https://expo.dev/accounts/nasrindev/projects/ai-mood-journal/builds/...
+
+👩‍💻 Author
+
+Nasrin Sultana
+💼 AI Engineer Intern | Tech Creator | Open Source Enthusiast
